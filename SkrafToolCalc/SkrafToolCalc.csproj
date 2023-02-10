@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\arrow pointing left.png" />
+    <None Remove="Icons\C.png" />
+    <None Remove="Icons\filled circle.png" />
+    <None Remove="Icons\logo.png" />
+    <None Remove="Icons\mnozenie.png" />
+    <None Remove="Icons\plus.png" />
+    <None Remove="Icons\squared x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\..\Wpf Icons\mnozenie.png">
+      <Link>Icons\mnozenie.png</Link>
+    </Resource>
+    <None Remove="Icons\dzielenie.png" />
+    <None Remove="Icons\dzielenie2.png" />
+    <Resource Include="Icons\arrow pointing left.png" />
+    <Resource Include="Icons\C.png" />
+    <Resource Include="Icons\dzielenie2.png" />
+    <None Remove="Icons\close_480px.png" />
+    <Resource Include="Icons\close_480px.png" />
+    <None Remove="Icons\minus.png" />
+    <Resource Include="Icons\filled circle.png" />
+    <Resource Include="Icons\logo.png" />
+    <Resource Include="Icons\minus.png" />
+    <Resource Include="Icons\plus.png" />
+    <None Remove="Icons\equal1.png" />
+    <Resource Include="Icons\equal1.png" />
+    <None Remove="Icons\percent.png" />
+    <Content Include="logo.ico" />
+    <Resource Include="Icons\percent.png" />
+    <Resource Include="Icons\squared x.png" />
+  </ItemGroup>
+
+</Project>

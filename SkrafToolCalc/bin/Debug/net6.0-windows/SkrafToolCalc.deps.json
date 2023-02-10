@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SkrafToolCalc/1.0.0": {
+        "runtime": {
+          "SkrafToolCalc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SkrafToolCalc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
